@@ -1,0 +1,8 @@
+ORG 0000H
+MOV A,#11
+MOV B,#100
+MUL AB        
+
+MOV R0,A
+MOV A,#56
+ADD A,R0
